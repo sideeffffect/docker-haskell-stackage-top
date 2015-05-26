@@ -111,7 +111,7 @@ RUN cabal install text \
                   wai \
                   hoogle \
                   mime-mail \
-                  utf8-string \
+                  utf8-string
                   
 RUN which ghc && \
     ghc --version && \
